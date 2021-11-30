@@ -1,6 +1,6 @@
 const eqArrays = require('./eqArrays');
 
-const assertArraysEquals = function (actual, expected) {
+const assertArrayEquals = function (actual, expected) {
   const compare = eqArrays(actual, expected);
 
   if (compare) {
@@ -10,4 +10,5 @@ const assertArraysEquals = function (actual, expected) {
   }
 }
 
-module.exports = assertArraysEquals;
+module.exports = assertArrayEquals;
+
