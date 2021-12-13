@@ -1,6 +1,6 @@
 {
   "name": "@flynstone/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reproduction of lodash, project built for lighthouse lab bootcamp",
   "main": "index.js",
   "directories": {
